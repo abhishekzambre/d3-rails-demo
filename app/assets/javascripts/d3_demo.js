@@ -36,7 +36,7 @@ function draw(data) {
         .attr("height", barHeight - 1)
         .style("fill", function (d) {
             return color(d)
-        })
+        });
 
     bar.append("text")
         .attr("x", function (d) {

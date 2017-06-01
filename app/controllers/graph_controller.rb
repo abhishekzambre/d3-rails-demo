@@ -5,7 +5,7 @@ class GraphController < ApplicationController
   def data
     respond_to do |format|
       format.json {
-        render :json => [1,2,3,4,5]
+        render :json => [1,2,3,4,5,6,7,8]
       }
     end
   end

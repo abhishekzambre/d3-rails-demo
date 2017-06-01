@@ -15,4 +15,5 @@
 //= require jquery
 //= require jquery_ujs
 //= require d3
+//= require d3_demo
 //= require_tree .
